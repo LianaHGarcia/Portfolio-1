@@ -1,0 +1,5 @@
+runs = input("How many runs?")
+times_batted = input("How many times batted?")
+not_out = input("How many times not out?")
+Batting_avg = int(runs) / (int(times_batted) - int(not_out))
+print("Boycott's batting average is: ",Batting_avg)
